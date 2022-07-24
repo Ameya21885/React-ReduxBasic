@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  margin: 10px;
+  background-color: brown;
+  padding: 10ch;
+  
+}
+
+
+.a{
+  position: relative;
+  bottom: 75vh;
+  border: 2px solid black;
+  width: 50%;
+  height: 70ch;
+  position: relative;
+  left: 50ch;
+}
+.a h1{
+  font-weight: bold;
+  margin: 3ch;
+}
+.a h2{
+  margin: 4ch;
+}
+
+.a button{
+width: 20ch;
+height: 5ch;
+margin: 10px;
+border-radius: 10px;
+border-color: rgb(94, 66, 39);
+background-color: rgb(235, 156, 156);
+cursor: pointer;
+font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
